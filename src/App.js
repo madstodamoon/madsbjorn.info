@@ -3,7 +3,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>coming soon</h1>
+      <h1>Coming soon</h1>
     </div>
   );
 }

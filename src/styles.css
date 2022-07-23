@@ -2,7 +2,19 @@
   background-color: #ffffff;
   color: black;
   font-size: 12px;
-  padding: 30px 45px;
-  font-family: Helvetica, sans-serif;
+  padding: 20px 35px;
+  font-family: "HelveticaLt", sans-serif;
   text-align: left;
+}
+
+@font-face {
+  font-family: HelveticaLt;
+  src: url(fonts/HelveticaLt.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+h1 {
+  font-family: HelveticaLt, sans-serif;
+  font-weight: 100;
 }
