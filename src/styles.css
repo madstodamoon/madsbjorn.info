@@ -1,10 +1,11 @@
 .App {
   background-color: #ffffff;
   color: black;
-  font-size: 12px;
-  padding: 20px 35px;
+  font-size: 11px;
+  padding: 30px 35px;
   font-family: "HelveticaLt", sans-serif;
   text-align: left;
+  line-height: 150%;
 }
 
 @font-face {
