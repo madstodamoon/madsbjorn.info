@@ -2,10 +2,10 @@
   background-color: #ffffff;
   color: black;
   font-size: 11px;
-  padding: 20px 25px;
+  padding: 30px 30px 30px 35px;
   font-family: "HelveticaLt", sans-serif;
   text-align: left;
-  line-height: 150%;
+  line-height: 33px;
 }
 
 @font-face {
