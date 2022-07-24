@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+  .App {
+    background-color: #ffffff;
+    color: black;
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    font-family: "HelveticaLt", sans-serif;
+    text-align: left;
+    line-height: 33px;
+  }
+}
