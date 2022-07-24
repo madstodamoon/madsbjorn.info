@@ -1,10 +1,17 @@
+import React from "react";
+import ReactDOM from "react-dom";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
       <h1>
-        Studio Mads Bjørn Christiansen. All enquiries to studio@madsbjorn.info
+        {" "}
+        <a> Studio </a> <a> Mads </a> <a> Bjørn </a> <a> Christiansen</a>.{" "}
+        <a> All </a> <a> enquiries </a> <a> to </a>{" "}
+        <a onClick={() => (window.location = "mailto:studio@madsbjorn.info")}>
+          studio@madsbjorn.info
+        </a>
       </h1>
     </div>
   );
