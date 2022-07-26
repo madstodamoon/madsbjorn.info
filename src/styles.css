@@ -3,6 +3,14 @@ html * {
   cursor: text;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: white;
+  overflow: hidden;
+}
+
 .App {
   background-color: #ffffff;
   color: black;
@@ -10,7 +18,7 @@ html * {
   padding: 30px 30px 30px 35px;
   font-family: "HelveticaLt", sans-serif;
   text-align: left;
-  line-height: 33px;
+  line-height: 40px;
 }
 
 @font-face {
