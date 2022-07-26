@@ -3,14 +3,6 @@ html * {
   cursor: text;
 }
 
-html,
-body {
-  margin: 0;
-  height: 100%;
-  background-color: white;
-  overflow: hidden;
-}
-
 .App {
   background-color: #ffffff;
   color: black;
@@ -47,4 +39,8 @@ a:hover {
   color: white;
   transition-duration: 0.15s;
   transition-delay: 0s;
+}
+
+body {
+  background-color: #ffffff;
 }
