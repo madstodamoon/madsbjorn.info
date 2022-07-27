@@ -36,11 +36,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: white;
   transition-duration: 0.15s;
   transition-delay: 0s;
-}
-
-body {
-  background-color: white;
 }
