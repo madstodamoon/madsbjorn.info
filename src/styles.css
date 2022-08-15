@@ -8,25 +8,25 @@ html * {
   color: black;
   font-size: 11px;
   padding: 30px 30px 30px 35px;
-  font-family: "HelveticaLt", sans-serif;
+  font-family: "FamiljenGrotesk-Regular", sans-serif;
   text-align: left;
   line-height: 40px;
 }
 
 @font-face {
-  font-family: HelveticaLt;
-  src: url(fonts/HelveticaLt.ttf);
+  font-family: FamiljenGrotesk-Regular;
+  src: url(fonts/FamiljenGrotesk-Regular.ttf);
   font-style: normal;
   font-weight: 100;
 }
 
 h1 {
-  font-family: HelveticaLt, sans-serif;
+  font-family: FamiljenGrotesk-Regular, sans-serif;
   font-weight: 100;
 }
 
 a {
-  font-family: HelveticaLt, sans-serif;
+  font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 22px;
