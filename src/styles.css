@@ -8,27 +8,27 @@ html * {
   color: black;
   font-size: 3px;
   padding: 30px 30px 30px 35px;
-  font-family: "FamiljenGrotesk-Italic", sans-serif;
+  font-family: "FamiljenGrotesk-Regular", sans-serif;
   text-align: left;
   line-height: 40px;
 }
 
 @font-face {
-  font-family: FamiljenGrotesk-Italic;
-  src: url(fonts/FamiljenGrotesk-Italic.ttf);
+  font-family: FamiljenGrotesk-Regular;
+  src: url(fonts/FamiljenGrotesk-Regular.ttf);
   font-style: normal;
-  font-weight: 100;
+  font-weight: 50;
 }
 
 h1 {
-  font-family: FamiljenGrotesk-Italic, sans-serif;
-  font-weight: 100;
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  font-weight: 50;
 }
 
 a {
-  font-family: FamiljenGrotesk-Italic, sans-serif;
+  font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
-  font-weight: 100;
+  font-weight: 50;
   font-size: 6px;
   text-decoration-line: none;
   transition-duration: 4s;
