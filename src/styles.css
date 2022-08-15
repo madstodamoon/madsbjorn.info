@@ -6,7 +6,7 @@ html * {
 .App {
   background-color: white;
   color: black;
-  font-size: 6px;
+  font-size: 3px;
   padding: 30px 30px 30px 35px;
   font-family: "FamiljenGrotesk-Italic", sans-serif;
   text-align: left;
@@ -29,7 +29,7 @@ a {
   font-family: FamiljenGrotesk-Italic, sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 6px;
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
