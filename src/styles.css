@@ -40,3 +40,8 @@ a:hover {
   transition-duration: 0.15s;
   transition-delay: 0s;
 }
+
+::selection {
+  background-color: white;
+  color: white;
+}
