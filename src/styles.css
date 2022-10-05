@@ -1,6 +1,5 @@
 html,
 html * {
-  cursor: text;
 }
 
 .App {
@@ -11,6 +10,12 @@ html * {
   font-family: "FamiljenGrotesk-Regular", sans-serif;
   text-align: left;
   line-height: 40px;
+  z-index: 1;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: url(CrossCursor32px.png), text;
 }
 
 @font-face {
