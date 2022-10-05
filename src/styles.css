@@ -15,7 +15,7 @@ html * {
   position: fixed;
   top: 0;
   left: 0;
-  cursor: url(images/HandCursor2.gif), text;
+  cursor: url(images/Pointer4x.png), pointer;
 }
 
 @font-face {
