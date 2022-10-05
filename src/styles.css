@@ -15,7 +15,7 @@ html * {
   position: fixed;
   top: 0;
   left: 0;
-  cursor: url(CrossCursor32px.png), text;
+  cursor: url(images/HandCursor.gif), text;
 }
 
 @font-face {
@@ -25,7 +25,7 @@ html * {
   font-weight: 100;
 }
 
-h1 {
+p {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   font-weight: 100;
 }
