@@ -10,8 +10,6 @@ html * {
   font-family: "FamiljenGrotesk-Regular", sans-serif;
   text-align: left;
   line-height: 40px;
-  z-index: 1;
-  position: fixed;
   cursor: url(images/Pointer4x.png), pointer;
 }
 
