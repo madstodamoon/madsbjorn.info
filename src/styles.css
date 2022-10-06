@@ -12,7 +12,7 @@ html * {
   line-height: 40px;
   height: 100%;
   position: fixed;
-  cursor: url(images/Pointer2x.png), auto;
+  cursor: url(images/Pointer2x.png), pointer;
 }
 
 @font-face {
@@ -22,9 +22,25 @@ html * {
   font-weight: 100;
 }
 
+span {
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 24px;
+  text-decoration-line: none;
+  transition-duration: 4s;
+  transition-delay: 5s;
+  cursor: url(images/Type2x.png), text;
+}
+
 p {
   font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
   font-weight: 100;
+  font-size: 24px;
+  text-decoration-line: none;
+  transition-duration: 4s;
+  transition-delay: 5s;
 }
 
 a {
@@ -35,16 +51,24 @@ a {
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
-  cursor: url(images/Type4x.png), pointer;
+  cursor: url(images/Type2x.png), text;
 }
 
 a:hover {
   color: white;
   transition-duration: 0.15s;
   transition-delay: 0s;
+  }
 }
 
 ::selection {
   background-color: white;
   color: white;
+}
+
+p:hover {
+  color: white;
+  transition-duration: 0.15s;
+  transition-delay: 0s;
+  }
 }

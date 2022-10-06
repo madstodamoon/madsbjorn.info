@@ -13,9 +13,11 @@ export default function App() {
         <a> globally </a> <a> within </a> <a> the </a> <a> realms </a>
         <a> of </a> <a> virtual </a> <a> and </a> <a> built </a>
         <a> envirronments </a> . <a> All </a> <a> inquiries </a> <a> to </a>{" "}
-        <a onClick={() => (window.location = "mailto:studio@madsbjorn.info")}>
+        <span
+          onClick={() => (window.location = "mailto:studio@madsbjorn.info")}
+        >
           studio@madsbjorn.info
-        </a>
+        </span>
       </h1>
     </div>
   );
