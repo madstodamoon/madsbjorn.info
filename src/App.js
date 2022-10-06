@@ -14,6 +14,7 @@ export default function App() {
         <a> of </a> <a> virtual </a> <a> and </a> <a> built </a>
         <a> envirronments </a> . <a> All </a> <a> inquiries </a> <a> to </a>{" "}
         <span
+          class="link-text"
           onClick={() => (window.location = "mailto:studio@madsbjorn.info")}
         >
           studio@madsbjorn.info
