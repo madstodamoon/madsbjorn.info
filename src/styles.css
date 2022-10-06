@@ -12,7 +12,7 @@ html * {
   line-height: 40px;
   height: 100%;
   position: fixed;
-  cursor: url(images/Pointer4x.png), pointer;
+  cursor: url(images/HandCursor2.gif), pointer;
 }
 
 @font-face {
