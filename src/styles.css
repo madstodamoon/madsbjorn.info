@@ -12,7 +12,7 @@ html * {
   line-height: 40px;
   height: 100%;
   position: fixed;
-  cursor: url(images/Pointer2x.png), pointer;
+  cursor: url(images/Pointer2x.png), auto;
 }
 
 @font-face {
@@ -35,6 +35,7 @@ a {
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
+  cursor: url(images/Type4x.png), pointer;
 }
 
 a:hover {
