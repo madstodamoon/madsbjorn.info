@@ -33,16 +33,6 @@ span {
   cursor: url(images/Type2x.png), text;
 }
 
-p {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 24px;
-  text-decoration-line: none;
-  transition-duration: 4s;
-  transition-delay: 5s;
-}
-
 a {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
@@ -64,11 +54,4 @@ a:hover {
 ::selection {
   background-color: white;
   color: white;
-}
-
-p:hover {
-  color: white;
-  transition-duration: 0.15s;
-  transition-delay: 0s;
-  }
 }
