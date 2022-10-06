@@ -38,7 +38,6 @@ a {
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
-  cursor: url(images/Type2x.png), text;
 }
 
 a:hover {
