@@ -17,13 +17,13 @@ html * {
 
 @font-face {
   font-family: FamiljenGrotesk-Regular;
-  src: url(fonts/FamiljenGrotesk-Regular.ttf);
+  src: url(fonts/FamiljenGrotesk-Bold.ttf);
   font-style: normal;
   font-weight: 100;
 }
 
 .link-text {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
+  font-family: FamiljenGrotesk-Bold, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 30px;
@@ -31,7 +31,7 @@ html * {
 }
 
 a {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
+  font-family: FamiljenGrotesk-Bold, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 24px;
