@@ -1,8 +1,8 @@
 @media only screen and (max-width: 768px) {
   .App {
     color: black;
-    font-size: 15.5px;
-    padding: 10px 40px 10px 15px;
+    font-size: 13px;
+    padding: 10px 40px 10px 20px;
     line-height: 42px;
   }
 }
