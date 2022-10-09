@@ -7,7 +7,7 @@ html * {
   color: black;
   font-size: 12px;
   padding: 15px 110px 30px 35px;
-  font-family: "FamiljenGrotesk-Regular", sans-serif;
+  font-family: "FamiljenGrotesk-Medium", sans-serif;
   text-align: left;
   line-height: 40px;
   height: 100%;
@@ -29,8 +29,22 @@ html * {
   font-weight: 100;
 }
 
+@font-face {
+  font-family: FamiljenGrotesk-Regular;
+  src: url(fonts/FamiljenGrotesk-Italic.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: FamiljenGrotesk-Regular;
+  src: url(fonts/FamiljenGrotesk-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
 .link-text {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
+  font-family: FamiljenGrotesk-Medium, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 30px;
