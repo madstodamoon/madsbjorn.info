@@ -3,12 +3,8 @@ html * {
 }
 
 .App {
-  color: black;
-  font-size: 12px;
   padding: 15px 110px 30px 35px;
-  font-family: "FamiljenGrotesk-Medium", sans-serif;
   text-align: left;
-  line-height: 40px;
   height: 100%;
   position: fixed;
   z-index: 2;
@@ -70,6 +66,7 @@ a {
   color: black;
   font-weight: 100;
   font-size: 30px;
+  line-height: 40px;
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
@@ -79,9 +76,9 @@ footer {
   font-family: FamiljenGrotesk-Italic, sans-serif;
   color: lightgrey;
   font-size: 30px;
+  line-height: 40px;
   text-decoration-line: none;
   position: fixed;
-  z-index: 1;
 }
 
 a:hover {

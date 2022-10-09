@@ -2,5 +2,5 @@ import React from "react";
 import styled from "styled-components";
 
 export default function TextAnimation() {
-  return <footer> * footnote test </footer>;
+  return <footer> * footnote test long sentence line shift adjustment </footer>;
 }
