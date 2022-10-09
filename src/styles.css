@@ -29,8 +29,22 @@ html * {
   font-weight: 100;
 }
 
+@font-face {
+  font-family: FamiljenGrotesk-Bold;
+  src: url(fonts/FamiljenGrotesk-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: FamiljenGrotesk-Italic;
+  src: url(fonts/FamiljenGrotesk-Italic.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
 .link-text {
-  font-family: FamiljenGrotesk-Medium, sans-serif;
+  font-family: FamiljenGrotesk-Italic, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 30px;
