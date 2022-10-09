@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function FootnoteAnimation() {
-  return <div> Test footnote text </div>;
+export default function TextAnimation() {
+  return <p> Test footnote text </p>;
 }
