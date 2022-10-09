@@ -89,3 +89,18 @@ a:hover {
   background-color: white;
   color: white;
 }
+
+.footnote-enter {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+  animation: slide-in-from-left 0.5s forwards;
+}
+
+@keyframes slide-in-from-left {
+  0% {
+    transform: translate(-10%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import "./responsive.css";
+import ReactCSSTransitionGroup from "react-transition-group";
 import "./text-animation/FootnoteAnimation.js";
 import FootnoteAnimation from "./text-animation/FootnoteAnimation.js";
 
