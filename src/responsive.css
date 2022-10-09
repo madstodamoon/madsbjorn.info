@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
   .App {
-    padding: 5px 36px 10px 20px;
+    padding: 5px 37px 10px 20px;
   }
 
   footer {
@@ -8,7 +8,7 @@
     line-height: 40px;
     bottom: 30px;
     right: 30px;
-    left: 25px;
+    left: 27px;
   }
 
   a {
