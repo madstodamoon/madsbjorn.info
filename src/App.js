@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./styles/styles.css";
-import "./styles/responsive.css";
-import "./animation/FootnoteAnimation.js";
-import FootnoteAnimation from "./animation/FootnoteAnimation.js";
+import "./styles.css";
+import "./responsive.css";
+import "./text-animation/FootnoteAnimation.js";
+import FootnoteAnimation from "./text-animation/FootnoteAnimation.js";
 
 export default function App() {
   return (
