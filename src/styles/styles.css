@@ -1,0 +1,84 @@
+html,
+html * {
+}
+
+.App {
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 15px 110px 30px 35px;
+  font-family: "FamiljenGrotesk-Medium", sans-serif;
+  text-align: left;
+  line-height: 40px;
+  height: 100%;
+  position: fixed;
+  cursor: url(images/Pointer2x.png), pointer;
+}
+
+.Footnote {
+  color: lightgrey;
+  font-size: 30px;
+  padding: 860px 110px 30px 35px;
+  font-family: "FamiljenGrotesk-Italic", sans-serif;
+  text-align: left;
+  line-height: 40px;
+  height: 100%;
+  position: fixed;
+}
+
+@font-face {
+  font-family: FamiljenGrotesk-Regular;
+  src: url(fonts/FamiljenGrotesk-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: FamiljenGrotesk-Medium;
+  src: url(fonts/FamiljenGrotesk-Medium.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: FamiljenGrotesk-Bold;
+  src: url(fonts/FamiljenGrotesk-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: FamiljenGrotesk-Italic;
+  src: url(fonts/FamiljenGrotesk-Italic.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+.link-text {
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  text-decoration-line: none;
+}
+
+a {
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  text-decoration-line: none;
+  transition-duration: 4s;
+  transition-delay: 5s;
+}
+
+a:hover {
+  color: white;
+  transition-duration: 0.15s;
+  transition-delay: 0s;
+}
+
+::selection {
+  background-color: white;
+  color: white;
+}
