@@ -6,9 +6,16 @@ import ReactCSSTransitionGroup from "react-transition-group";
 import "./text-animation/FootnoteAnimation.js";
 import FootnoteAnimation from "./text-animation/FootnoteAnimation.js";
 
+//Prevents scrolling. Set to "auto" if needed
 document.body.style.overflow = "hidden";
 
+// Export
+
 export default function App() {
+  //Changes status bar color on devices
+
+  // Content starts here
+
   return (
     <>
       <div className="Footnote">
