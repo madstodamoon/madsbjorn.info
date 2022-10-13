@@ -6,6 +6,8 @@ import ReactCSSTransitionGroup from "react-transition-group";
 import "./text-animation/FootnoteAnimation.js";
 import FootnoteAnimation from "./text-animation/FootnoteAnimation.js";
 
+document.body.style.overflow = "hidden";
+
 export default function App() {
   return (
     <>
