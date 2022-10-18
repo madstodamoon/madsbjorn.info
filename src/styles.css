@@ -72,11 +72,12 @@ a {
 
 footer {
   font-family: FamiljenGrotesk-Italic, sans-serif;
-  color: whitesmoke;
+  color: lightgray;
   font-size: 30px;
   line-height: 40px;
   text-decoration-line: none;
   position: fixed;
+  animation: SlideInBottom 1.25s ease-out;
 }
 
 a:hover {
@@ -90,17 +91,22 @@ a:hover {
   color: white;
 }
 
-.footnote-enter {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-  animation: slide-in-from-left 0.5s forwards;
+@keyframes SlideInBottom {
+  from {
+    transform: translateY(3em);
+    position: absolute;
+  }
+  to {
+    transform: translateY(0em);
+    position: absolute;
+  }
 }
 
-@keyframes slide-in-from-left {
+@keyframes FadeIn {
   0% {
-    transform: translate(-10%);
+    opacity: 0;
   }
   100% {
-    transform: translate(0%);
+    opacity: 1;
   }
 }

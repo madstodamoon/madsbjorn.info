@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import "./responsive.css";
 import ReactCSSTransitionGroup from "react-transition-group";
-import "./text-animation/FootnoteAnimation.js";
-import FootnoteAnimation from "./text-animation/FootnoteAnimation.js";
 
 //Prevents scrolling. Set to "auto" if needed
 document.body.style.overflow = "hidden";
@@ -18,11 +16,8 @@ export default function App() {
 
   return (
     <>
-      <div className="Footnote">
-        <div>
-          {" "}
-          <FootnoteAnimation />{" "}
-        </div>
+      <div>
+        <footer> * Test </footer>
       </div>
 
       <>
@@ -30,7 +25,8 @@ export default function App() {
           <h1>
             {" "}
             <a> Mads </a> <a> Bjørn </a> <a> Christiansen </a> <a> is </a>
-            <a> an </a> <a> independent </a> <a> architect </a> <a> engaged </a>
+            <a> an </a> <a> independent </a> <a> architect </a>
+            <a> engaged </a>
             <a> globally </a> <a> within </a> <a> the </a> <a> realms </a>
             <a> of </a> <a> virtual </a> <a> and </a> <a> built </a>
             <a> envirronments </a> .
