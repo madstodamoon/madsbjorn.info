@@ -58,6 +58,17 @@ a {
   transition-delay: 5s;
 }
 
+p {
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 40px;
+  text-decoration-line: none;
+  transition-duration: 4s;
+  transition-delay: 5s;
+}
+
 footer {
   font-family: FamiljenGrotesk-Italic, sans-serif;
   color: whitesmoke;
@@ -68,7 +79,7 @@ footer {
   text-decoration-line: none;
   position: fixed;
   cursor: url(images/Pointer2x.png), pointer;
-  animation: SlideInBottom 1.25s ease-out;
+  animation: SlideInBottom 1.05s ease-in;
 }
 
 a:hover {
@@ -84,7 +95,7 @@ a:hover {
 
 @keyframes SlideInBottom {
   from {
-    transform: translateY(3em);
+    transform: translateY(5em);
     position: absolute;
   }
   to {
