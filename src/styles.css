@@ -11,16 +11,12 @@ html * {
   cursor: url(images/Pointer2x.png), pointer;
 }
 
-.Footnote {
-  color: #ffffff;
+.link-text {
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
+  font-weight: 100;
   font-size: 30px;
-  bottom: 85px;
-  left: 35px;
-  text-align: left;
-  line-height: 40px;
-  position: fixed;
-  z-index: 1;
-  cursor: url(images/Pointer2x.png), pointer;
+  text-decoration-line: none;
 }
 
 @font-face {
@@ -51,14 +47,6 @@ html * {
   font-weight: 100;
 }
 
-.link-text {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  text-decoration-line: none;
-}
-
 a {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
@@ -75,8 +63,11 @@ footer {
   color: whitesmoke;
   font-size: 30px;
   line-height: 40px;
+  bottom: 40px;
+  left: 35px;
   text-decoration-line: none;
   position: fixed;
+  cursor: url(images/Pointer2x.png), pointer;
   animation: SlideInBottom 1.25s ease-out;
 }
 

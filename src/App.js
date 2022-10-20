@@ -16,10 +16,6 @@ export default function App() {
 
   return (
     <>
-      <div>
-        <footer> * Test </footer>
-      </div>
-
       <>
         <div className="App">
           <h1>
@@ -39,6 +35,10 @@ export default function App() {
               studio@madsbjorn.info
             </span>
           </h1>
+        </div>
+
+        <div>
+          <footer> * Test </footer>
         </div>
       </>
     </>
