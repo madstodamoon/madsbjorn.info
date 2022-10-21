@@ -6,6 +6,7 @@ html * {
   padding: 15px 60px 30px 35px;
   text-align: left;
   height: 100%;
+  width: 100%;
   position: fixed;
   z-index: 2;
   cursor: url(images/Pointer2x.png), pointer;
@@ -78,7 +79,6 @@ footer {
   left: 35px;
   text-decoration-line: none;
   position: fixed;
-  cursor: url(images/Pointer2x.png), pointer;
   animation: SlideInBottom 1.05s ease-in;
 }
 
