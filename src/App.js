@@ -42,7 +42,7 @@ export default function App() {
             <a> engaged </a>
             <a> globally </a> <a> within </a> <a> the </a> <a> realms </a>
             <a> of </a> <a> virtual </a> <a> and </a> <a> built </a>
-            <a> envirronments </a> .
+            <a> environments </a> .
             <br />
             <a> All </a> <a> inquiries </a> <a> to </a>{" "}
             <span
