@@ -3,7 +3,7 @@ html * {
 }
 
 .App {
-  padding: 15px 60px 30px 35px;
+  padding: 20px 80px 30px 80px;
   text-align: left;
   height: 100%;
   width: inherit;
@@ -75,8 +75,8 @@ footer {
   color: whitesmoke;
   font-size: 30px;
   line-height: 40px;
-  bottom: 40px;
-  left: 35px;
+  bottom: 50px;
+  left: 80px;
   text-decoration-line: none;
   position: fixed;
   animation: SlideInBottom 1.05s ease-in;
