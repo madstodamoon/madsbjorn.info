@@ -12,14 +12,6 @@ html * {
   cursor: url(images/Pointer2x.png), pointer;
 }
 
-.link-text {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  text-decoration-line: none;
-}
-
 @font-face {
   font-family: FamiljenGrotesk-Regular;
   src: url(fonts/FamiljenGrotesk-Regular.ttf);
@@ -52,7 +44,7 @@ a {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 40px;
   text-decoration-line: none;
   transition-duration: 4s;
@@ -63,7 +55,7 @@ p {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 40px;
   text-decoration-line: none;
   transition-duration: 4s;
@@ -73,13 +65,21 @@ p {
 footer {
   font-family: FamiljenGrotesk-Italic, sans-serif;
   color: whitesmoke;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 40px;
   bottom: 50px;
   left: 80px;
   text-decoration-line: none;
   position: fixed;
   animation: SlideInBottom 1.05s ease-in;
+}
+
+.link-text {
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 32px;
+  text-decoration-line: none;
 }
 
 a:hover {
