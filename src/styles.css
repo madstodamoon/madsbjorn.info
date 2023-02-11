@@ -44,8 +44,8 @@ a {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 32px;
-  line-height: 42.6px;
+  font-size: 31.5px;
+  line-height: 42px;
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
@@ -55,8 +55,8 @@ p {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 32px;
-  line-height: 42.6px;
+  font-size: 31.5px;
+  line-height: 42px;
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
@@ -65,8 +65,8 @@ p {
 footer {
   font-family: FamiljenGrotesk-Italic, sans-serif;
   color: whitesmoke;
-  font-size: 32px;
-  line-height: 42.6px;
+  font-size: 31.5px;
+  line-height: 42px;
   bottom: 50px;
   left: 80px;
   text-decoration-line: none;
@@ -78,7 +78,7 @@ footer {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 32px;
+  font-size: 31.5px;
   text-decoration-line: none;
 }
 
