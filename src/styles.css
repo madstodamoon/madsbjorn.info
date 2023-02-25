@@ -40,13 +40,6 @@ html * {
   font-weight: 100;
 }
 
-@font-face {
-  font-family: IBMPlexSans-Regular;
-  src: url(fonts/IBMPlexSans-Regular);
-  font-style: normal;
-  font-weight: 100;
-}
-
 a {
   font-family: IBMPlexSans-Regular, sans-serif;
   color: black;
