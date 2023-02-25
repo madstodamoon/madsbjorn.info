@@ -41,7 +41,7 @@ html * {
 }
 
 a {
-  font-family: IBMPlexSans-Regular, sans-serif;
+  font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 31.25px;
@@ -52,7 +52,7 @@ a {
 }
 
 p {
-  font-family: IBMPlexSans-Regular, sans-serif;
+  font-family: FamiljenGrotesk, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 31.25px;
@@ -63,7 +63,7 @@ p {
 }
 
 footer {
-  font-family: IBMPlexSans-Regular, sans-serif;
+  font-family: FamiljenGrotesk-Regular, sans-serif;
   color: whitesmoke;
   font-size: 31.25px;
   line-height: 41.66px;
@@ -75,7 +75,7 @@ footer {
 }
 
 .link-text {
-  font-family: IBMPlexSans-Regular, sans-serif;
+  font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
   font-size: 31.25px;
