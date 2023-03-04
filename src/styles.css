@@ -93,7 +93,7 @@ a:hover {
 /* Footer */
 footer {
   font-family: FamiljenGrotesk-Italic, sans-serif;
-  color: black;
+  color: #c9c9c9;
   font-weight: 100;
   font-size: 31.25px;
   line-height: 41.66px;
@@ -107,7 +107,7 @@ footer {
 .show-footer {
   opacity: 1;
   transform: translateY(0);
-  animation: SlideInBottom 0.2s ease-out forwards;
+  animation: SlideInBottom 0.3s ease-out forwards;
 }
 
 /* Animations */
