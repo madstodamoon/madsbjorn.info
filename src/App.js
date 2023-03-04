@@ -11,20 +11,15 @@ document.body.style.overflow = "hidden";
 // Export
 
 export default function App() {
-  //onclick events
-
-  const initialText = "architect";
-  const [buttonTextArchitect, setButtonText] = useState(initialText);
+  const [isFooterVisible, setIsFooterVisible] = useState(false);
+  const [buttonTextArchitect, setButtonText] = useState("architect");
 
   function handleClick() {
-    setButtonText("architect*");
-
-    setTimeout(() => {
-      setButtonText(initialText);
-    }, 20000); // 👈️ change text back after 1 second
+    setButtonText(
+      buttonTextArchitect === "architect" ? "architect*" : "architect"
+    );
+    setIsFooterVisible(!isFooterVisible);
   }
-
-  //Changes status bar color on devices?
 
   // Content starts here
 
@@ -55,7 +50,11 @@ export default function App() {
         </div>
 
         <div>
-          <footer> * Test </footer>
+          {isFooterVisible && (
+            <footer className="show-footer SlideInBottom">
+              * Graduated from the Architectural Association (AA) in London
+            </footer>
+          )}
         </div>
       </>
     </>

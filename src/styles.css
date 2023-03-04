@@ -62,18 +62,6 @@ p {
   transition-delay: 5s;
 }
 
-footer {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
-  color: whitesmoke;
-  font-size: 31.25px;
-  line-height: 41.66px;
-  bottom: 50px;
-  left: 80px;
-  text-decoration-line: none;
-  position: fixed;
-  animation: SlideInBottom 1.05s ease-in;
-}
-
 .link-text {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
@@ -93,22 +81,43 @@ a:hover {
   color: white;
 }
 
-@keyframes SlideInBottom {
-  from {
-    transform: translateY(5em);
-    position: absolute;
-  }
-  to {
-    transform: translateY(0em);
-    position: absolute;
-  }
-}
-
 @keyframes FadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  font-family: FamiljenGrotesk-Italic, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 31.25px;
+  line-height: 41.66px;
+  bottom: 50px;
+  left: 80px;
+  text-decoration-line: none;
+  position: fixed;
+  z-index: 9999;
+}
+
+.show-footer {
+  opacity: 1;
+  transform: translateY(0);
+  animation: SlideInBottom 0.2s ease-out forwards;
+}
+
+/* Animations */
+@keyframes SlideInBottom {
+  from {
+    opacity: 1;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
