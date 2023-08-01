@@ -41,7 +41,7 @@ export default function App() {
             <a> engaged </a> <a> independently </a> <a> and </a>{" "}
             <a> collaboratively </a> <a> within </a> <a> the </a> <a> realm </a>{" "}
             <a> of </a> <a> virtual </a> <a> and </a> <a> built </a>
-            <a> environments </a> .
+            <a> environments </a> <a> . </a>
             <br />
             <br />
             <span
@@ -50,6 +50,8 @@ export default function App() {
             >
               studio@madsbjorn.info
             </span>
+            <br />
+            <a> Copenhagen </a> <a> , </a> <a> Denmark </a>
           </h1>
         </div>
 
