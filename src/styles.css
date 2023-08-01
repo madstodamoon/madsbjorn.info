@@ -3,15 +3,12 @@ html * {
 }
 
 .App {
-  background-color: white;
-  color: black;
-  font-size: 12px;
-  padding: 15px 110px 30px 35px;
-  font-family: "FamiljenGrotesk-Medium", sans-serif;
+  padding: 20px 80px 30px 80px;
   text-align: left;
-  line-height: 40px;
   height: 100%;
+  width: inherit;
   position: fixed;
+  z-index: 2;
   cursor: url(images/Pointer2x.png), pointer;
 }
 
@@ -43,22 +40,34 @@ html * {
   font-weight: 100;
 }
 
-.link-text {
-  font-family: FamiljenGrotesk-Regular, sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  text-decoration-line: none;
-}
-
 a {
   font-family: FamiljenGrotesk-Regular, sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 30px;
+  font-size: 31.25px;
+  line-height: 41.66px;
   text-decoration-line: none;
   transition-duration: 4s;
   transition-delay: 5s;
+}
+
+p {
+  font-family: FamiljenGrotesk, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 31.25px;
+  line-height: 41.66px;
+  text-decoration-line: none;
+  transition-duration: 4s;
+  transition-delay: 5s;
+}
+
+.link-text {
+  font-family: FamiljenGrotesk-Regular, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 31.25px;
+  text-decoration-line: none;
 }
 
 a:hover {
@@ -70,4 +79,45 @@ a:hover {
 ::selection {
   background-color: white;
   color: white;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  font-family: FamiljenGrotesk-Italic, sans-serif;
+  color: #c9c9c9;
+  font-weight: 100;
+  font-size: 31.25px;
+  line-height: 41.66px;
+  bottom: 50px;
+  left: 80px;
+  text-decoration-line: none;
+  position: fixed;
+  z-index: 9999;
+}
+
+.show-footer {
+  opacity: 1;
+  transform: translateY(0);
+  animation: SlideInBottom 0.3s ease-out forwards;
+}
+
+/* Animations */
+@keyframes SlideInBottom {
+  from {
+    opacity: 1;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

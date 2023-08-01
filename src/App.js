@@ -2,26 +2,71 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import "./responsive.css";
+import { useState } from "react";
+
+//Prevents scrolling. Set to "auto" if needed
+
+document.body.style.overflow = "hidden";
+
+// Export
 
 export default function App() {
+  const [isFooterVisible, setIsFooterVisible] = useState(false);
+  const [buttonTextArchitect, setButtonText] = useState(
+    "Mads Bjørn Christiansen"
+  );
+
+  function handleClick() {
+    setButtonText(
+      buttonTextArchitect === "Mads Bjørn Christiansen"
+        ? "Mads Bjørn Christiansen*"
+        : "Mads Bjørn Christiansen"
+    );
+    setIsFooterVisible(!isFooterVisible);
+  }
+
+  // Content starts here
+
   return (
-    <div className="App">
-      <h1>
-        {" "}
-        <a> Mads </a> <a> Bjørn </a> <a> Christiansen </a> <a> is </a>
-        <a> an </a> <a> independent </a> <a> architect </a> <a> engaged </a>
-        <a> globally </a> <a> within </a> <a> the </a> <a> realms </a>
-        <a> of </a> <a> virtual </a> <a> and </a> <a> built </a>
-        <a> envirronments </a> .
-        <br />
-        <a> All </a> <a> inquiries </a> <a> to </a>{" "}
-        <span
-          class="link-text"
-          onClick={() => (window.location = "mailto:studio@madsbjorn.info")}
-        >
-          studio@madsbjorn.info
-        </span>
-      </h1>
-    </div>
+    <>
+      <>
+        <div className="App">
+          <h1>
+            {" "}
+            <span class="link-text" onClick={handleClick}>
+              {buttonTextArchitect}
+            </span>
+            <a> conducts </a>
+            <a> an </a> <a> architectural </a> <a> practice </a>{" "}
+            <a> engaged </a> <a> independently </a> <a> and </a>{" "}
+            <a> collaboratively </a> <a> within </a> <a> the </a> <a> realm </a>{" "}
+            <a> of </a> <a> virtual </a> <a> and </a> <a> built </a>
+            <a> environments </a> <a> . </a>
+            <br />
+            <br />
+            <span
+              className="link-text"
+              onClick={() => (window.location = "mailto:studio@madsbjorn.info")}
+              style={{ color: "rgba(128, 128, 128, 0.5)" }}
+            >
+              studio@madsbjorn.info
+            </span>
+            <br />
+            <a style={{ color: "rgba(128, 128, 128, 0.5)" }}>
+              Copenhagen,
+            </a>{" "}
+            <a style={{ color: "rgba(128, 128, 128, 0.5)" }}>Denmark</a>
+          </h1>
+        </div>
+
+        <div>
+          {isFooterVisible && (
+            <footer className="show-footer SlideInBottom">
+              * Graduated from the Architectural Association (AA) in London 2018
+            </footer>
+          )}
+        </div>
+      </>
+    </>
   );
 }
