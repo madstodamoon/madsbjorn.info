@@ -45,7 +45,7 @@ export default function App() {
             <br />
             <br />
             <span
-              class="link-text"
+              className="link-text"
               onClick={() => (window.location = "mailto:studio@madsbjorn.info")}
             >
               studio@madsbjorn.info
