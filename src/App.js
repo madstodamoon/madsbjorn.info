@@ -51,7 +51,9 @@ export default function App() {
               studio@madsbjorn.info
             </span>
             <br />
-            <a> Copenhagen </a> <a> , </a> <a> Denmark </a>
+            <a style={{ fontStyle: "italic" }}>Copenhagen</a>{" "}
+            <a style={{ fontStyle: "italic" }}>,</a>{" "}
+            <a style={{ fontStyle: "italic" }}>Denmark</a>
           </h1>
         </div>
 
