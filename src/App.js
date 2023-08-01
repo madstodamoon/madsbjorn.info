@@ -47,28 +47,22 @@ export default function App() {
             <span
               className="link-text"
               onClick={() => (window.location = "mailto:studio@madsbjorn.info")}
-              style={{ fontStyle: "italic", color: "rgba(128, 128, 128, 0.5)" }}
+              style={{ color: "rgba(128, 128, 128, 0.5)" }}
             >
               studio@madsbjorn.info
             </span>
             <br />
-            <a
-              style={{ fontStyle: "italic", color: "rgba(128, 128, 128, 0.5)" }}
-            >
+            <a style={{ color: "rgba(128, 128, 128, 0.5)" }}>
               Copenhagen,
             </a>{" "}
-            <a
-              style={{ fontStyle: "italic", color: "rgba(128, 128, 128, 0.5)" }}
-            >
-              Denmark
-            </a>
+            <a style={{ color: "rgba(128, 128, 128, 0.5)" }}>Denmark</a>
           </h1>
         </div>
 
         <div>
           {isFooterVisible && (
             <footer className="show-footer SlideInBottom">
-              * Graduated from the Architectural Association (AA) in London
+              * Graduated from the Architectural Association (AA) in London 2018
             </footer>
           )}
         </div>
